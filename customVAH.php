@@ -92,3 +92,6 @@ if ($reqjson['userInputType'] === userInputType::NO_INPUT) {
 }
 
 echo json_encode($botExchangeResponse);
+
+
+?>

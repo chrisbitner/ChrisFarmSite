@@ -91,5 +91,35 @@
             document.body.appendChild(dfot2BitnerLivechatStudio)
         </script>
 
+
+        <script>
+            // Create a button element
+            const dfot2BitnerMessagingTest = document.createElement('button')
+
+            // Set the button text
+            dfot2BitnerMessagingTest.innerText = 'DFOT2 - Bitner LiveChat Studio'
+
+            dfot2BitnerMessagingTest.id = 'DFOT2 - Bitner LiveChat Studio'
+
+            // Attach the "click" event to your button
+            dfot2BitnerMessagingTest.addEventListener('click', () => {
+            
+            // embed CXone chat point of contact script.
+            // the 'brandembassy('openchatwindow')' line is to auto launch chat window when button is clicked
+            //DFOT2 Bitner LiveChat Test
+            (function (i, s, o, r, g, v, a, m) {
+            g = v ? g + '?v=' + v : g; i['BrandEmbassy'] = r;
+            i[r] = i[r] || function () { (i[r].q = i[r].q || []).push(arguments) }; i[r].l = +new Date();
+            a = s.createElement(o); m = s.getElementsByTagName(o)[0]; a.async = 1;
+            a.src = g + '?' + Math.round(Date.now() / 1000 / 3600); m.parentNode.insertBefore(a, m)
+            }) (window, document, 'script', 'brandembassy', 'https://livechat-static-de-na1.niceincontact.com/4/chat.js');
+
+            brandembassy('init', 1018, 'chat_36066bf2-26da-435b-bd1f-5f9e6147c5f4');
+            brandembassy('openChatWindow');            
+            })
+
+            document.body.appendChild(dfot2BitnerMessagingTest)
+        </script>
+
     </body>
 </html>
